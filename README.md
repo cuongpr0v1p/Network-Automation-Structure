@@ -16,9 +16,17 @@ Hệ thống Network Automation được xây dựng trên nền tảng Ubuntu 1
 - Hỗ trợ triển khai VLAN tự động
 
 ---
+# DANH SÁCH THIẾT BỊ
 
+| Tên thiết bị | IP Management | Loại | Ghi chú |
+|---|---|---|---|
+| FW_Active | 10.120.99.250 | FortiGate | Chỉ monitor, chưa backup |
+| SW-CORE | 10.120.99.249 | Cisco IOSvL2 | Monitor + Backup |
+| SW-DMZ | 10.120.99.246 | Cisco IOSvL2 | Monitor + Backup |
+| SW-SERVER | 10.120.99.247 | Cisco IOSvL2 | Monitor + Backup |
+| SW-LAN | 10.120.99.248 | Cisco IOSvL2 | Monitor + Backup |
 # CÁC CHỨC NĂNG ĐÃ TRIỂN KHAI
-
+---
 ## Device Monitoring
 - Kiểm tra trạng thái thiết bị bằng ICMP Ping
 - Phát hiện thiết bị UP/DOWN
