@@ -1,0 +1,119 @@
+Current configuration : 1805 bytes
+!
+! Last configuration change at 09:36:44 VN Mon May 18 2026
+!
+version 15.2
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+service compress-config
+!
+hostname SW-DMZ
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$XVpe$XdhwGqVLvNKjmUSMo2Hd31
+!
+username cuongvdq secret 5 $1$JADM$7GDwUfDCs/ab.RwVq5fI41
+no aaa new-model
+clock timezone VN 7 0
+!
+!
+!
+!
+!
+!
+!
+!
+ip domain-name cuong.com
+ip cef
+no ipv6 cef
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Port-channel12
+ description "Connection to SW-CORE port e1/2-3"
+ switchport trunk allowed vlan 30,99
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+!
+interface Ethernet0/0
+ description "Connection to SW-CORE port e1/2-3"
+ switchport trunk allowed vlan 30,99
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ channel-group 12 mode active
+!
+interface Ethernet0/1
+ description "Connection to SW-CORE port e1/2-3"
+ switchport trunk allowed vlan 30,99
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ channel-group 12 mode active
+!
+interface Ethernet0/2
+ description "Connection to Web-Server"
+ switchport access vlan 30
+!
+interface Ethernet0/3
+!
+interface Vlan99
+ ip address 10.120.99.246 255.255.255.0
+!
+ip forward-protocol nd
+!
+ip http server
+!
+ip route 0.0.0.0 0.0.0.0 10.120.99.250
+ip ssh server algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+ip ssh client algorithm encryption aes128-ctr aes192-ctr aes256-ctr
+!
+!
+!
+!
+snmp-server community public RO
+snmp-server location Zabbix-Server
+snmp-server contact cuongvdq
+snmp-server host 10.120.20.100 version 2c public 
+!
+control-plane
+!
+!
+line con 0
+ logging synchronous
+line aux 0
+line vty 0 4
+ login local
+ transport input ssh
+!
+!
+!
+end
+
+SW-DMZ#end
+Translating "end"...domain server (255.255.255.255)
+
+Translating "end"...domain server (255.255.255.255)
+ (255.255.255.255)
+Translating "end"...domain server (255.255.255.255)
+% Unknown command or computer name, or unable to find computer address
+SW-DMZ#

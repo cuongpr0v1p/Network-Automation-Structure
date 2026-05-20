@@ -1,0 +1,22 @@
+============================================================
+CONFIG DRIFT REPORT
+============================================================
+Thiet bi  : SW-LAN
+Thoi gian : 2026-05-17 19:27:23
+File cu   : /root/network-automation/backups/switches/SW-LAN_2026-05-15_21-57.txt
+File moi  : /root/network-automation/backups/switches/SW-LAN_2026-05-17_19-24.txt
+============================================================
+
+[ DONG DUOC THEM MOI ]
+----------------------------------------
++ ! Last configuration change at 18:17:17 VN Sun May 17 2026
++ Current configuration : 1815 bytes
+
+[ DONG DA BI XOA ]
+----------------------------------------
+- Current configuration : 1827 bytes
+- ! Last configuration change at 18:40:00 VN Fri May 15 2026 by cuongvdq
+
+============================================================
+Tong so dong thay doi: 4
+============================================================

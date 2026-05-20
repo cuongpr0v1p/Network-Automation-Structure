@@ -1,0 +1,23 @@
+============================================================
+CONFIG DRIFT REPORT
+============================================================
+Thiet bi  : SW-SERVER
+Thoi gian : 2026-05-18 22:14:57
+Backup cu : SW-SERVER_2026-05-18_11-38.txt
+Backup moi: SW-SERVER_2026-05-18_22-12.txt
+============================================================
+
+[ DONG DUOC THEM MOI ]
+----------------------------------------
++ Switch-Server#end
++ hostname Switch-Server
++ Switch-Server#
+
+[ DONG DA BI XOA ]
+----------------------------------------
+- SW-SERVER#
+- SW-SERVER#end
+- hostname SW-SERVER
+
+============================================================
+Tong thay doi: 6

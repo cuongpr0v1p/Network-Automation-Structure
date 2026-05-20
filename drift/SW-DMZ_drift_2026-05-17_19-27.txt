@@ -1,0 +1,22 @@
+============================================================
+CONFIG DRIFT REPORT
+============================================================
+Thiet bi  : SW-DMZ
+Thoi gian : 2026-05-17 19:27:23
+File cu   : /root/network-automation/backups/switches/SW-DMZ_2026-05-15_21-56.txt
+File moi  : /root/network-automation/backups/switches/SW-DMZ_2026-05-17_19-23.txt
+============================================================
+
+[ DONG DUOC THEM MOI ]
+----------------------------------------
++ ! Last configuration change at 18:17:16 VN Sun May 17 2026
++ Current configuration : 1805 bytes
+
+[ DONG DA BI XOA ]
+----------------------------------------
+- ! Last configuration change at 18:39:59 VN Fri May 15 2026 by cuongvdq
+- Current configuration : 1817 bytes
+
+============================================================
+Tong so dong thay doi: 4
+============================================================

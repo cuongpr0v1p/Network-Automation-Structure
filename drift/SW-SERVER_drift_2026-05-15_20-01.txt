@@ -1,0 +1,22 @@
+============================================================
+CONFIG DRIFT REPORT
+============================================================
+Thiet bi  : SW-SERVER
+Thoi gian : 2026-05-15 20:01:19
+File cu   : /root/network-automation/backups/switches/SW-SERVER_2026-05-15_19-53.txt
+File moi  : /root/network-automation/backups/switches/SW-SERVER_2026-05-15_19-58.txt
+============================================================
+
+[ DONG DUOC THEM MOI ]
+----------------------------------------
++ ! Last configuration change at 18:56:09 VN Fri May 15 2026
++ Current configuration : 2346 bytes
+
+[ DONG DA BI XOA ]
+----------------------------------------
+- Current configuration : 2358 bytes
+- ! Last configuration change at 18:45:08 VN Fri May 15 2026 by cuongvdq
+
+============================================================
+Tong so dong thay doi: 4
+============================================================

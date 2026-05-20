@@ -1,0 +1,75 @@
+
+[2026-05-18 10:56:42] [INFO] ==================================================
+[2026-05-18 10:56:42] [INFO] BAT DAU NETWORK AUTOMATION
+[2026-05-18 10:56:42] [INFO] ==================================================
+[2026-05-18 10:56:42] [INFO] STEP 1: Kiem tra trang thai thiet bi...
+[2026-05-18 10:56:46] [OK]   SW-SERVER (10.120.99.247) -- UP
+[2026-05-18 10:56:46] [OK]   SW-CORE (10.120.99.249) -- UP
+[2026-05-18 10:56:46] [OK]   SW-DMZ (10.120.99.246) -- UP
+[2026-05-18 10:56:46] [OK]   SW-LAN (10.120.99.248) -- UP
+[2026-05-18 10:56:46] [INFO] STEP 2: Backup config...
+[2026-05-18 10:57:23] [OK]   SW-SERVER -- OK -- 2664 bytes
+[2026-05-18 10:58:00] [OK]   SW-CORE -- OK -- 4336 bytes
+[2026-05-18 10:58:37] [OK]   SW-DMZ -- OK -- 2117 bytes
+[2026-05-18 10:59:14] [OK]   SW-LAN -- OK -- 2127 bytes
+[2026-05-18 10:59:16] [INFO] STEP 2.5: Push backup len GitHub...
+[2026-05-18 10:59:16] [INFO] Push backup len GitHub...
+[2026-05-18 10:59:18] [OK]   Push GitHub: OK
+[2026-05-18 10:59:18] [INFO] STEP 3: Kiem tra config drift...
+[2026-05-18 10:59:18] [OK]   SW-SERVER -- Khong co thay doi
+[2026-05-18 10:59:18] [OK]   SW-CORE -- Khong co thay doi
+[2026-05-18 10:59:18] [OK]   SW-DMZ -- Khong co thay doi
+[2026-05-18 10:59:18] [OK]   SW-LAN -- Khong co thay doi
+[2026-05-18 10:59:18] [INFO] --------------------------------------------------
+[2026-05-18 10:59:18] [INFO] Tong ket:
+[2026-05-18 10:59:18] [INFO]   Thiet bi UP      : 4
+[2026-05-18 10:59:18] [INFO]   Thiet bi DOWN    : 0
+[2026-05-18 10:59:18] [INFO]   Backup thanh cong: 4
+[2026-05-18 10:59:18] [INFO]   Config drift     : 0
+[2026-05-18 10:59:18] [INFO] ============================================================
+[2026-05-18 11:36:19] [INFO] ==================================================
+[2026-05-18 11:36:19] [INFO] BAT DAU NETWORK AUTOMATION
+[2026-05-18 11:36:19] [INFO] ==================================================
+[2026-05-18 11:36:19] [INFO] STEP 1: Kiem tra trang thai thiet bi...
+[2026-05-18 11:38:16] [INFO] ==================================================
+[2026-05-18 11:38:16] [INFO] BAT DAU NETWORK AUTOMATION
+[2026-05-18 11:38:16] [INFO] ==================================================
+[2026-05-18 11:38:16] [INFO] STEP 1: Kiem tra trang thai thiet bi...
+[2026-05-18 11:38:20] [INFO] STEP 2: Backup config...
+[2026-05-18 11:40:49] [INFO] STEP 2.5: Push backup len GitHub...
+[2026-05-18 11:40:49] [INFO] Push backup len GitHub...
+[2026-05-18 11:40:51] [OK]   Push GitHub: OK
+[2026-05-18 11:40:51] [INFO] STEP 3: Kiem tra config drift...
+[2026-05-18 11:40:51] [INFO] --------------------------------------------------
+[2026-05-18 11:40:51] [INFO] Tong ket:
+[2026-05-18 11:40:51] [INFO]   Thiet bi UP      : 4
+[2026-05-18 11:40:51] [INFO]   Thiet bi DOWN    : 0
+[2026-05-18 11:40:51] [INFO]   Backup thanh cong: 4
+[2026-05-18 11:40:51] [INFO]   Config drift     : 0
+[2026-05-18 11:40:51] [INFO] ============================================================
+[2026-05-18 22:12:20] [INFO] ==================================================
+[2026-05-18 22:12:20] [INFO] BAT DAU NETWORK AUTOMATION
+[2026-05-18 22:12:20] [INFO] ==================================================
+[2026-05-18 22:12:20] [INFO] STEP 1: Kiem tra trang thai thiet bi...
+[2026-05-18 22:12:24] [INFO] STEP 2: Backup config...
+[2026-05-18 22:14:54] [INFO] STEP 2.5: Push backup len GitHub...
+[2026-05-18 22:14:54] [INFO] Push backup len GitHub...
+[2026-05-18 22:14:57] [OK]   Push GitHub: OK
+[2026-05-18 22:14:57] [INFO] STEP 3: Kiem tra config drift...
+[2026-05-18 22:14:57] [WARNING]   SW-SERVER -- CO THAY DOI -- 6 dong
+[2026-05-18 22:14:57] [WARNING]   >>> THEM MOI:
+[2026-05-18 22:14:57] [WARNING]       + Switch-Server#end
+[2026-05-18 22:14:57] [WARNING]       + hostname Switch-Server
+[2026-05-18 22:14:57] [WARNING]       + Switch-Server#
+[2026-05-18 22:14:57] [WARNING]   >>> DA XOA:
+[2026-05-18 22:14:57] [WARNING]       - SW-SERVER#
+[2026-05-18 22:14:57] [WARNING]       - SW-SERVER#end
+[2026-05-18 22:14:57] [WARNING]       - hostname SW-SERVER
+[2026-05-18 22:14:57] [WARNING]   >>> Bao cao drift: /root/network-automation/drift/SW-SERVER_drift_2026-05-18_22-14.txt
+[2026-05-18 22:14:58] [INFO] --------------------------------------------------
+[2026-05-18 22:14:58] [INFO] Tong ket:
+[2026-05-18 22:14:58] [INFO]   Thiet bi UP      : 4
+[2026-05-18 22:14:58] [INFO]   Thiet bi DOWN    : 0
+[2026-05-18 22:14:58] [INFO]   Backup thanh cong: 4
+[2026-05-18 22:14:58] [INFO]   Config drift     : 1
+[2026-05-18 22:14:58] [INFO] ============================================================
