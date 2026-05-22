@@ -83,16 +83,12 @@ Deploy VLAN
 Logging System
 # FILE CẤU HÌNH & BACKUP
 
-Toàn bộ file cấu hình backup của hệ thống được lưu trữ tại Google Drive:
+---
 
-📂 Google Drive Backup Repository:
+## 📂 File Dự Án
 
-:contentReference[oaicite:0]{index=0}
+Toàn bộ tài liệu triển khai, hướng dẫn cấu hình, file backup và báo cáo kỹ thuật của dự án được lưu trữ tại thư mục bên dưới:
 
-Bao gồm:
-- File backup cấu hình switch
-- Drift report
-- Version backup
-- File phục vụ audit & troubleshooting
+👉 [Xem File Dự Án trên Google Drive](https://drive.google.com/drive/folders/1sHdtnaVTxOnhcFMF6rXEYOS5kQxaV8Nl)
 
 ---
