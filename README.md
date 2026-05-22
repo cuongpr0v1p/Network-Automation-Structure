@@ -81,3 +81,18 @@ Telegram Alert
 Deploy VLAN
    ↓
 Logging System
+# FILE CẤU HÌNH & BACKUP
+
+Toàn bộ file cấu hình backup của hệ thống được lưu trữ tại Google Drive:
+
+📂 Google Drive Backup Repository:
+
+:contentReference[oaicite:0]{index=0}
+
+Bao gồm:
+- File backup cấu hình switch
+- Drift report
+- Version backup
+- File phục vụ audit & troubleshooting
+
+---
